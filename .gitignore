@@ -1,0 +1,36 @@
+# --- Data (2.8 GB, downloaded via kagglehub; never commit) ---
+sen2naip/
+data/
+*.tif
+*.tiff
+
+# --- Model weights and checkpoints (downloaded / generated) ---
+model/
+weights/
+checkpoints/
+*.safetensor
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# --- Experiment outputs (regenerable) ---
+outputs/
+runs/
+logs/
+
+# --- Personal report (kept local) ---
+project_plan_report.md
+
+# --- Python environment and caches ---
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/

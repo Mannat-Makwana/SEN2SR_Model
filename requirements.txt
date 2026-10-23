@@ -1,0 +1,27 @@
+# Python 3.11 (SEN2SR's documented version). Pinned versions = the tested environment.
+# Install: python3.11 -m venv venv && venv/bin/pip install -r requirements.txt
+
+# --- Model: SEN2SR (SEN2SRLite / NonReference_RGBN_x4) ---
+torch==2.14.1
+sen2sr==0.8.5
+mlstac==0.4.9
+safetensors==0.8.0
+timm==1.0.30
+
+# --- Numerics and geospatial I/O ---
+numpy==2.4.6
+scipy==1.17.1
+rasterio==1.4.4
+pyproj==3.7.2
+
+# --- Metrics, data handling, plots ---
+scikit-image==0.26.0
+pandas==3.1.0
+matplotlib==3.11.2
+Pillow==13.0.0
+tqdm==4.70.1
+PyYAML==6.0.3
+
+# --- Notebooks and dataset download ---
+ipykernel==7.4.0
+kagglehub==1.0.3
